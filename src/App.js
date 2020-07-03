@@ -1,7 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from "react"
 import "./styles/lotte.scss"
 import Layout from "./components/layout"
-import { HashLink as Link } from "react-router-hash-link"
 import { Route, HashRouter } from "react-router-dom"
 import Navigation from "./components/navigation"
 import PizzaPage from "./pages/pizza"
@@ -35,8 +34,10 @@ class App extends Component {
 
 function Main() {
   return <main>
-    <Navigation /> 
-  </main>;
+    <Layout>
+      <Navigation/>
+    </Layout>
+  </main>
 }
 
 export default App
