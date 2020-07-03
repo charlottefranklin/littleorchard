@@ -1,5 +1,5 @@
 $ yarn start
 
-$ npm run deploy
+$ yarn build
 
-$ git push --force origin master
+$ git push
