@@ -1,12 +1,11 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import bread01 from "../images/IMG_4636.jpg"
-import bread02 from "../images/IMG_4644.jpg"
-import bread03 from "../images/IMG_4676.jpg"
 
 const LemonTartPage = () => (
   <Layout>
+    <h1>River Cafe lemon tart</h1>
+    <em>Recipe stolen from <a href="https://www.houseandgarden.co.uk/recipe/lemon-crostata">here</a></em>
     <h3>Ingredients</h3>
     <ul>
       <li>350g plain flour</li>
