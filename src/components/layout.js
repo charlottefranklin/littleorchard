@@ -1,15 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
-
 import Header from "./header"
+import Navigation from "./navigation"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <section className="header-container"><Header/></section>
-      <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
-      </style>
+      <Header/>
+      <Navigation/>
       <main>{children}</main>
         <footer>
           © {new Date().getFullYear()} lottegarden

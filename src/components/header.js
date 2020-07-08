@@ -1,10 +1,14 @@
-import { HashLink as Link} from 'react-router-hash-link';
-import React from "react"
+import React, { Component } from "react"
+import { HashLink as Link } from "react-router-hash-link"
 
-const Header = () => (
-  <header>
-    <Link to="/">LOTTE garden</Link>
-  </header>
-)
+class Header extends Component {
+  render() {
+    return <div className="header-container">
+      <header>
+        <Link to="/">LOTTE garden</Link>
+      </header>
+    </div>
+  }
+}
 
 export default Header

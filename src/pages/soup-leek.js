@@ -3,7 +3,7 @@ import React from "react"
 
 const CremeFraichePage = () => (
   <Layout>
-    Creme fraiche
+
   </Layout>
 )
 

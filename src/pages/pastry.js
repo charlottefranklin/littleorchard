@@ -1,10 +1,10 @@
 import Layout from "../components/layout"
 import React from "react"
 
-const CremeFraichePage = () => (
+const PastryPage = () => (
   <Layout>
-    Creme fraiche
+    Pastry
   </Layout>
 )
 
-export default CremeFraichePage
+export default PastryPage

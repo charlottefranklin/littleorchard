@@ -1,3 +1,21 @@
+.flex-group {
+  display: flex;
+}
+.flex-group > article {
+  flex: 1;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+.flex-start > article {
+  flex: none;
+  margin-right: 2rem;
+}
+.flex-start > article:last-of-type {
+  margin-right: 0;
+}
+
 body {
   font-family: "Fira Code", monospace;
   font-weight: 300;
@@ -6,7 +24,7 @@ body {
   margin: 0;
 }
 
-main, header, footer {
+main, header, footer, nav {
   padding: 1rem;
   margin: 0 auto;
   max-width: 50rem;
