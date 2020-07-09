@@ -7,7 +7,7 @@ const PizzaPage = () => (
   <Layout>
 
     <h1>Pizza</h1>
-    <img src={pizza01} alt="bread"/>
+    <img src={pizza01} alt="pizza"/>
 
     <h2>Step 1 ingredients</h2>
     <ul>

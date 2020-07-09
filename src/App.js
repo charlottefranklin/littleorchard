@@ -14,6 +14,7 @@ import PastryPage from "./pages/pastry"
 import PizzaSourdoughPage from "./pages/pizza-sourdough"
 import WaterKefirPage from "./pages/water-kefir"
 import LemonTartPage from "./pages/lemon-tart"
+import SconesPage from "./pages/scones"
 
 class App extends Component {
   render() {
@@ -31,6 +32,7 @@ class App extends Component {
         <Route path="/pages/pastry/" component={PastryPage}/>
         <Route path="/pages/pizza/" component={PizzaPage}/>
         <Route path="/pages/pizza-sourdough/" component={PizzaSourdoughPage}/>
+        <Route path="/pages/scones/" component={SconesPage}/>
       </HashRouter>
     )
   }

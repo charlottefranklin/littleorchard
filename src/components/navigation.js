@@ -24,6 +24,7 @@ class Navigation extends Component {
             <li><Link to="/pages/water-kefir/">Water kefir</Link></li>
             <li><Link to="/pages/soup-leek-potato/">Leek and potato soup</Link></li>
             <li><Link to="/pages/lemon-tart/">River Cafe lemon tart</Link></li>
+            <li><Link to="/pages/scones/">Scones</Link></li>
             <li><Link to="/pages/pastry/">Pastry</Link></li>
             <li><Link to="/pages/pizza/">Pizza</Link></li>
             <li><Link to="/pages/pizza-sourdough/">Sourdough pizza</Link></li>
