@@ -10,7 +10,7 @@ const BreadPage = () => (
         <img src={bread} alt="Two loaves of bread"/>
 
         <em>Makes 2 loaves. I use two of <a
-            href="https://www.falconenamelware.com/collections/all/products/loaf-tin?variant=30384542056484" target="_blank">these loaf tins</a> from
+            href="https://www.falconenamelware.com/collections/all/products/loaf-tin?variant=30384542056484" target="_blank" rel="noopener noreferrer">these loaf tins</a> from
             Falcon Enamelware</em>
         <h2>Ingredients</h2>
         <ul>
