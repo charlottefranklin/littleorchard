@@ -1,19 +1,25 @@
-.flex-group {
-  display: flex;
 
-  > article {
-    flex: 1;
+
+
+@media only screen and (min-width: 500px) {
+  .flex-group {
+    display: flex;
+
+    > article {
+      flex: 1;
+    }
   }
-}
 
-.flex-start {
-  justify-content: flex-start;
-  > article {
-    flex: none;
-    margin-right: 2rem;
+  .flex-start {
+    justify-content: flex-start;
+    > article {
+      flex: none;
+      margin-right: 2rem;
 
-    &:last-of-type {
-      margin-right: 0;
+      &:last-of-type {
+        margin-right: 0;
+      }
     }
   }
 }
+
