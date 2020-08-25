@@ -8,9 +8,9 @@ class Navigation extends Component {
         <article>
           <h2>Garden</h2>
           <ul>
-            <li><Link to="/biodynamics/">Biodynamics</Link></li>
-            <li><Link to="/growing-from-seed/">Growing from seed</Link></li>
-            <li><Link to="/sowing-calendar/">Sowing calendar - NZ</Link></li>
+            <li><Link to="/pages/garden/biodynamics/">Biodynamics</Link></li>
+            <li><Link to="/pages/garden/growing-from-seed/">Growing from seed</Link></li>
+            <li><Link to="/pages/garden/sowing-calendar/">Sowing calendar - NZ</Link></li>
           </ul>
         </article>
         <article>

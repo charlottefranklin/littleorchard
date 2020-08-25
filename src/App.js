@@ -3,6 +3,7 @@ import "./styles/lotte.scss"
 import Layout from "./components/layout"
 import { Route, HashRouter } from "react-router-dom"
 
+import SowingCalendarPage from "./pages/garden/sowing-calendar"
 import BreadPage from "./pages/bread"
 import CakePage from "./pages/cake"
 import CardamomCakePage from "./pages/cake-cardamom"
@@ -21,6 +22,8 @@ class App extends Component {
     return (
       <HashRouter>
         <Route path="/" exact component={Main}/>
+        <Route path="/pages/garden/sowing-calendar/" component={SowingCalendarPage}/>
+
         <Route path="/pages/bread/" component={BreadPage}/>
         <Route path="/pages/cake-cardamom/" component={CardamomCakePage}/>
         <Route path="/pages/cake-raspberry/" component={CakePage}/>
