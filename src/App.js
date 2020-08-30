@@ -42,10 +42,10 @@ class App extends Component {
 }
 
 function Main() {
-  return <body>
+  return <main>
     <Layout>
     </Layout>
-  </body>
+  </main>
 }
 
 export default App
