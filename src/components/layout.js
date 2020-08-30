@@ -5,14 +5,14 @@ import Navigation from "./navigation"
 
 const Layout = ({ children }) => {
   return (
-    <main>
+    <>
       <Header/>
       <Navigation/>
-      <section>{children}</section>
+      <main>{children}</main>
         <footer>
           © {new Date().getFullYear()} lottegarden
         </footer>
-    </main>
+    </>
   )
 }
 
