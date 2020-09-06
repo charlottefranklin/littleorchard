@@ -35,7 +35,7 @@ class App extends Component {
         <Route path="/pages/pastry/" component={PastryPage}/>
         <Route path="/pages/pizza/" component={PizzaPage}/>
         <Route path="/pages/pizza-sourdough/" component={PizzaSourdoughPage}/>
-        <Route path="/pages/scones/" component={SconesPage}/>
+        <Route path="/pages/scone$/" component={SconesPage}/>
       </HashRouter>
     )
   }
