@@ -24,7 +24,12 @@ body {
   margin: 0;
 }
 
-main, header, footer, nav {
+layout img {
+  width:100%;
+  mix-blend-mode: multiply;
+}
+
+header, footer, nav {
   padding: 1rem;
   margin: 0 auto;
   max-width: 50rem;
@@ -41,9 +46,6 @@ header {
   font-size: 1rem;
 }
 
-main {
-  padding: 1rem;
-}
 
 footer {
   font-size: 0.85rem;
@@ -65,5 +67,7 @@ h2 {
 p, li {
   font-size: 0.85rem;
 }
+
+
 
 /*# sourceMappingURL=lotte.css.map */

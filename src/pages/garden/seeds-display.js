@@ -10,8 +10,9 @@ function formatFlowerList(month) {
 }
 
 export function SeedsDisplay(props) {
-    return <div><h2>{props.month}</h2>
-        <h3>Vegetables</h3>{calendarData[formatVegList(props.month)].map((item, i) => { return <div key={i}>{item.seed}</div> })}
-        <h3>Flowers</h3>{calendarData[formatFlowerList(props.month)].map((item, i) => { return <div key={i}>{item.seed}</div> })}
-    </div>;
+    return <article>
+        <h2 className="title-case">{props.month}</h2>
+        <h3>Vegetables</h3><ul>{calendarData[formatVegList(props.month)].map((item, i) => { return <li key={i}>{item.seed}</li> })}</ul>
+        <h3>Flowers</h3><ul>{calendarData[formatFlowerList(props.month)].map((item, i) => { return <li key={i}>{item.seed}</li> })}</ul>
+    </article>;
 }

@@ -3,11 +3,11 @@ import { HashLink as Link } from "react-router-hash-link"
 
 class Header extends Component {
   render() {
-    return <div className="header-container">
-      <header>
+    return <header>
+      <div  className="header-content">
         <Link to="/">Little Orchard</Link>
-      </header>
-    </div>
+      </div>
+    </header>
   }
 }
 

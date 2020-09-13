@@ -1,8 +1,8 @@
 {
-  "name": "lottegarden",
+  "name": "littleorchard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://www.lottegarden.com",
+  "homepage": "http://www.littleorchard.co.nz",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -41,8 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
   }
 }

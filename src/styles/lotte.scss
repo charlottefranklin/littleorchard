@@ -12,26 +12,24 @@ body {
 img {
   margin: 1rem 0;
   width: 100%;
+  background-color: pink;
 }
 
-main, header, footer, nav {
+.header-content, footer, nav, main section {
   padding: 1rem;
   margin: 0 auto;
   max-width: 50rem;
 }
 
-.header-container {
+header {
   width: 100%;
   background-color: pink;
   padding-top: .75rem;
   padding-bottom: .5rem;
-}
-
-
-header {
-  //background-color: lightgrey;
   font-size: 1rem;
 }
+
+
 
 main {
   padding: 1rem;
@@ -56,4 +54,8 @@ h2 {
 
 p, li {
   font-size: .85rem;
+}
+
+.title-case, li {
+  text-transform: capitalize;
 }
