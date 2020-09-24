@@ -10,7 +10,7 @@ const PlantingCalendarPage = () => {
         <Layout>
             <h1>Sowing calendar</h1>
             <img src={seeds01} alt="sowing table"/>
-            <section>
+            <section className="flex-group">
             <SeedsDisplay month="august" />
             <SeedsDisplay month="september" />
             <SeedsDisplay month="october" />

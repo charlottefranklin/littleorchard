@@ -9,8 +9,9 @@ const Layout = ({ children }) => {
       <Header/>
       <Navigation/>
       <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()} lottegarden
+        <footer><article className="footer-content">
+          © {new Date().getFullYear()} Little Orchard
+        </article>
         </footer>
     </>
   )

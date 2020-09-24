@@ -10,6 +10,18 @@
     }
   }
 
+  &.space-between {
+    justify-content: space-between;
+
+    > * {
+      flex: none;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
   .flex-start {
     justify-content: flex-start;
     > article {
