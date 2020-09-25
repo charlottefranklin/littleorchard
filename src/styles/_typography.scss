@@ -21,7 +21,13 @@ p, li {
   font-size: 1rem;
 }
 
-nav, main {
+nav {
+  a {
+    color: rgb(27,158,159);
+  }
+}
+
+main {
   a, a:active, a:visited {
     color: rgb(20, 168, 107);
   }
