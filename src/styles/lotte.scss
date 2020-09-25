@@ -1,5 +1,7 @@
 @import 'flex';
+@import 'footer';
 @import 'box';
+@import 'typography';
 
 body {
   font-family: 'Fira Code', monospace;
@@ -36,6 +38,7 @@ header {
 
 main {
   padding: 1rem 0;
+  margin-bottom: 6rem;
 }
 
 .footer-content {
@@ -47,27 +50,6 @@ main {
 footer {
   background-color: rgb(27,158,159);
   width: 100%;
-}
-
-h1, h2, h3 {
-  font-family: 'Fira Code', monospace;
-  font-weight: 400;
-}
-
-h1 {
-  font-size: 2rem;
-  margin: 0 auto;
-  max-width: 80rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-  margin: 0 auto;
-  max-width: 80rem;
-}
-
-p, li {
-  font-size: 1rem;
 }
 
 .title-case, li {
