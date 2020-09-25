@@ -6,7 +6,6 @@ class Garden extends Component {
         return <nav>
             <section className="flex-group flex-start">
                 <article>
-                    <h2>Garden</h2>
                     <nav>
                         <ul>
                             <li><Link to="/pages/garden/sowing-calendar/">Sowing calendar</Link></li>

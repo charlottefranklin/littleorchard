@@ -9,8 +9,8 @@ export const shopsData = {
     "equipmentSales": [
         {"name": "Garden Tool Store", "url": "https://www.gardentools.nz/shop", "location": "Coromandel", "public": "no", "open-days": "yes"},
         {"name": "The Company Shed", "url": "https://thecompanyshed.co.nz/store/", "location": "Tai Tapu, Canterbury", "public": "no", "open-days": "yes"},
-        {"name": "Niwaki", "url": "https://www.niwaki.com/", "location": "UK", "public": "no", "open-days": "yes"},
         {"name": "Redpath", "url": "https://redpath.co.nz/home-and-garden//", "location": "Palmerston North", "public": "yes", "open-days": "na"},
+        {"name": "Niwaki (UK)", "url": "https://www.niwaki.com/", "location": "UK", "public": "no", "open-days": "yes"},
     ]
 }
 
