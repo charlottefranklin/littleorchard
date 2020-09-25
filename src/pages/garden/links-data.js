@@ -2,7 +2,7 @@ export const shopsData = {
     "plantSeedSales": [
         {"name": "Edible Garden", "url": "https://ediblegarden.co.nz/", "location": "Ashhurst", "public": "yes", "open-days": "na"},
         {"name": "Koanga Gardens", "url": "https://www.koanga.org.nz/gardens/", "location": "Wairoa", "public": "no", "open-days": "yes"},
-        {"name": "Kahitatea Farm", "url": "http://www.kahikatea.co.nz", "location": "Hawke's Bay", "public": "no", "open-days": "yes"},
+        {"name": "Kahitatea Farm", "url": "https://kahikateafarm.co.nz/", "location": "Hawke's Bay", "public": "no", "open-days": "yes"},
         {"name": "Setha's seeds", "url": "https://www.sethasseeds.co.nz/ourshop/", "location": "Tutira", "public": "no", "open-days": "yes"},
         {"name": "Stoneyground Herbs", "url": "https://www.stoneygroundherbs.co.nz/", "location": "Eketahuna", "public": "no", "open-days": "yes"}
     ],
