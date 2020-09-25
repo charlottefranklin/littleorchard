@@ -2,7 +2,6 @@ import React from "react"
 
 import Layout from "../../components/layout"
 import {EquipmentDisplay, VegDisplay} from "./links-display";
-import {FruitDisplay} from "./links-display";
 import {shopsData} from "./links-data";
 
 const LinksPage = () => {
@@ -23,5 +22,3 @@ const LinksPage = () => {
 };
 
 export default LinksPage
-
-// <ul>{calendarData[formatVegList(props.month)].map((item, i) => { return <li key={i}>{item.seed}</li> })}</ul>
