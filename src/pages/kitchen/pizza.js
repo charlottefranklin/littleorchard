@@ -1,7 +1,7 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import pizza01 from "../images/pizza.jpg"
+import Layout from "../../components/layout"
+import pizza01 from "../../images/pizza.jpg"
 
 const PizzaPage = () => (
     <Layout>

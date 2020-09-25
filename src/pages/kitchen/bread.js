@@ -1,7 +1,7 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import bread from "../images/bread.jpg"
+import Layout from "../../components/layout"
+import bread from "../../images/bread.jpg"
 
 const BreadPage = () => (
     <Layout>
