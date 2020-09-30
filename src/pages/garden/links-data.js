@@ -3,8 +3,9 @@ export const shopsData = {
         {"name": "Edible Garden", "url": "https://ediblegarden.co.nz/", "location": "Ashhurst", "public": "yes", "open-days": "na"},
         {"name": "Koanga Gardens", "url": "https://www.koanga.org.nz/gardens/", "location": "Wairoa", "public": "no", "open-days": "yes"},
         {"name": "Kahitatea Farm", "url": "https://kahikateafarm.co.nz/", "location": "Hawke's Bay", "public": "no", "open-days": "yes"},
+        {"name": "Puriri Lane", "url": "https://puririlane.co.nz/", "location": "Drury", "public": "no", "open-days": "yes"},
         {"name": "Setha's seeds", "url": "https://www.sethasseeds.co.nz/ourshop/", "location": "Tutira", "public": "no", "open-days": "yes"},
-        {"name": "Stoneyground Herbs", "url": "https://www.stoneygroundherbs.co.nz/", "location": "Eketahuna", "public": "no", "open-days": "yes"}
+        {"name": "Stoneyground Herbs", "url": "https://www.stoneygroundherbs.co.nz/", "location": "Eketahuna", "public": "no", "open-days": "yes"},
     ],
     "equipmentSales": [
         {"name": "Garden Tool Store", "url": "https://www.gardentools.nz/shop", "location": "Coromandel", "public": "no", "open-days": "yes"},

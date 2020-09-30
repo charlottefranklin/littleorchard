@@ -4,6 +4,10 @@
   > * {
     flex: none;
   }
+
+  *.flex-start {
+    flex: none;
+  }
 }
 
 .flex-align-center {
@@ -11,14 +15,45 @@
   align-items: center;
 }
 
-
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 50rem) {
   .flex-group {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
     > * {
       flex: 1;
+      margin-right: 1rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &.flex-start {
+      justify-content: flex-start;
+
+      > * {
+        flex: none;
+        margin-right: 1rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    &.flex-end {
+      justify-content: flex-end;
+
+      > * {
+        flex: none;
+        margin-left: 1rem;
+
+        &:last-child {
+          margin-left: 0;
+        }
+      }
     }
   }
 }

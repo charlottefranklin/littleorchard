@@ -27,9 +27,8 @@ img {
 header {
   width: 100%;
   background-color: rgb(50,76,82);
-  //background-color: rgb(20, 168, 107);
   font-size: 1.25rem;
-  padding: 2rem 0;
+  padding: 2rem;
   a {
     color: white;
     text-decoration: none;
@@ -37,23 +36,19 @@ header {
 }
 
 main {
-  padding: 1rem 0;
+  padding: 1rem 2rem;
   margin-bottom: 6rem;
 }
 
 .footer-content {
   font-size: .85rem;
   color: white;
-  padding: 2rem 0;
+  padding: 2rem;
 }
 
-
-.title-case, li {
-  //text-transform: capitalize;
-}
 
 nav ul {
-  margin-left: 0;
+  margin-left: 2rem;
   padding-left: 0;
 }
 

@@ -1,13 +1,10 @@
 .link-group ul {
-  border: 3px solid rgb(27,158,159);
+  border: 3px solid rgb(27, 158, 159);
   border-radius: 1rem;
   margin-right: 1rem;
   padding: 1rem;
-  max-width: 12rem;
+
   li {
     list-style: none;
-  }
-  &:last-of-type {
-    margin-right: 0;
   }
 }
