@@ -19,7 +19,8 @@ img {
   background-color: pink;
 }
 
-.header-content, .footer-content, nav, section {
+
+.header-content, .footer-content, nav, section, h2 {
   margin: 0 auto;
   max-width: 80rem;
 }
@@ -36,7 +37,6 @@ header {
 }
 
 main {
-  padding: 1rem 2rem;
   margin-bottom: 6rem;
 }
 
