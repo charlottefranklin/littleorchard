@@ -20,7 +20,7 @@ img {
 }
 
 
-.header-content, .footer-content, nav, section, h2 {
+.header-content, .footer-content, nav, section, h1, h2 {
   margin: 0 auto;
   max-width: 80rem;
 }
@@ -29,7 +29,7 @@ header {
   width: 100%;
   background-color: rgb(50,76,82);
   font-size: 1.25rem;
-  padding: 2rem;
+  padding: 1rem 0;
   a {
     color: white;
     text-decoration: none;
@@ -43,12 +43,11 @@ main {
 .footer-content {
   font-size: .85rem;
   color: white;
-  padding: 2rem;
+  padding: 1rem 0;
 }
 
 
 nav ul {
-  margin-left: 2rem;
   padding-left: 0;
 }
 
@@ -57,4 +56,3 @@ nav li {
   display: inline;
   margin-right: 1rem;
 }
-
