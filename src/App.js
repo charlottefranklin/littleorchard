@@ -20,7 +20,7 @@ class App extends Component {
 
 function Main() {
     return <Layout>
-        <section><h2>A New Zealand home gardener's notebook.</h2></section>
+        <section><h1>A New Zealand home gardener's notebook</h1></section>
         <img src="https://live.staticflickr.com/5568/14973505329_41cc90fb19_k.jpg" alt="Our Garden"/>
     </Layout>
 }
