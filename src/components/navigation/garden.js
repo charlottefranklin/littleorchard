@@ -5,7 +5,7 @@ class Garden extends Component {
     render() {
         return <>
             <li><Link to="/pages/garden/sowing-calendar/">Sowing calendar</Link></li>
-            <li><Link to="/pages/garden/links/">Links</Link></li>
+            <li><Link to="/pages/garden/links/">Gardening links</Link></li>
         </>
     }
 }
