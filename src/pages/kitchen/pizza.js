@@ -25,9 +25,7 @@ const PizzaPage = () => (
 
             <h2>Step 1</h2>
 
-            <p>In a bowl, mix the yeast with the warm water, then mix in the flour. Cover and leave in a warm place for
-                at
-                least 30 minutes until the yeast froths.</p>
+            <p>In a bowl, mix the yeast with the warm water, then mix in the flour. Cover and leave in a warm place for at least 30 minutes until the yeast froths.</p>
 
             <h2>Step 2</h2>
 

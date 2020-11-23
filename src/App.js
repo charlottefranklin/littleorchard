@@ -5,6 +5,9 @@ import {Route, HashRouter} from "react-router-dom"
 
 import SowingCalendarPage from "./pages/garden/sowing-calendar"
 import LinksPage from "./pages/garden/links";
+import BreadPage from "./pages/kitchen/bread"
+import PizzaPage from "./pages/kitchen/pizza"
+
 
 class App extends Component {
     render() {
@@ -13,6 +16,8 @@ class App extends Component {
                 <Route path="/" exact component={Main}/>
                 <Route path="/pages/garden/links/" component={LinksPage}/>
                 <Route path="/pages/garden/sowing-calendar/" component={SowingCalendarPage}/>
+                <Route path="/pages/kitchen/bread/" component={BreadPage}/>
+                <Route path="/pages/kitchen/pizza/" component={PizzaPage}/>
             </HashRouter>
         )
     }
