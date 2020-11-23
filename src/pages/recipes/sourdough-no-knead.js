@@ -27,7 +27,7 @@ const SourdoughNoKneadPage = () => (
             <p>Remove the bread from the tin and bake a further 5-10 minutes until golden all over. </p>
             <p>Take the bread out of the oven, tap the base to ensure it sounds hollow and cool on a wire rack. </p>
             <p>Leave the bread at least 2 hours to complete the baking process.</p>
-            <p>Recipe adapted from <a href={"https://shop.nicolagalloway.co.nz/cooking-workshops"} target={"_blank"}>Nicola Galloway's sourdough course.</a></p>
+            <p>Recipe adapted from <a href={"https://shop.nicolagalloway.co.nz/cooking-workshops"} target={"_blank"} rel={"noopener noreferrer"}>Nicola Galloway's sourdough course.</a></p>
         </section>
     </Layout>
 )
