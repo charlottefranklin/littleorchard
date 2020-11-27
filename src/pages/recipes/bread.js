@@ -26,7 +26,7 @@ const BreadPage = () => (
             <p>Mix in flour, salt and water, and mix.</p>
             <p>Once the mixture has come together knead the dough for 3-5 minutes.</p>
             <p>Cover with a tea towel and put in a warm place for an hour or so to rise.</p>
-            <p>When the dough has risen gently push down and knead a couple of times to release the gases. </p>
+            <p>When the dough has risen gently push it down to release the gases and knead a further 2 minutes.</p>
             <p>Cut the dough into two and, on a floured surface, shape each piece to fit your tins.</p>
             <p>Line the two loaf tins and put your shaped loaves into them. Put these back in your warm place to rise
                 again for a
