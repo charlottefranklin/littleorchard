@@ -5,7 +5,7 @@ import bread from "../../images/bread.jpg"
 
 const BreadPage = () => (
     <Layout>
-        <h1>Bread - sort of milk loaf</h1>
+        <h1>Bread</h1>
         <img src={bread} alt="Two loaves of bread"/>
         <section>
             <em>Makes 2 loaves. I use two of <a
@@ -19,13 +19,12 @@ const BreadPage = () => (
                 <li>600ml luke warm water</li>
                 <li>1.5 tbsp salt</li>
                 <li>8 cups white spelt flour</li>
-                <li>1 cup milk</li>
+                <li>2 cups water</li>
             </ul>
             <p>In a large bowl mix water, yeast and sugar. Rest in a warm place for ten minutes until bubbly and yeasty
                 smelling.</p>
-            <p>Mix in flour and salt then add the milk and mix with a small wooden spoon.</p>
-            <p>Once the mixture has come together knead the bread for a couple of minutes by hand. I seem to get away
-                with very little kneading for this bread.</p>
+            <p>Mix in flour, salt and water, and mix.</p>
+            <p>Once the mixture has come together knead the bread for a couple of minutes.</p>
             <p>Cover with a tea towel and put in a warm place for an hour or so to rise.</p>
             <p>When the dough has risen gently push down and knead a couple of times to release the gases. </p>
             <p>Cut the dough into two and, on a floured surface, shape each piece to fit your tins.</p>

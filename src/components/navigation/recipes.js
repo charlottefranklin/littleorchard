@@ -21,5 +21,4 @@ class RecipesNavigation extends Component {
     }
 }
 
-
 export default RecipesNavigation
