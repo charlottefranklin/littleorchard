@@ -9,6 +9,7 @@ import BreadPage from "./pages/recipes/bread"
 import PizzaPage from "./pages/recipes/pizza"
 import SourdoughNoKneadPage from "./pages/recipes/sourdough-no-knead"
 
+import garden from "./images/IMG_0806-1.jpg"
 
 class App extends Component {
     render() {
@@ -28,7 +29,7 @@ class App extends Component {
 function Main() {
     return <Layout>
         <section><h1>A New Zealand home gardener's notebook</h1></section>
-        <img src="https://live.staticflickr.com/5568/14973505329_41cc90fb19_k.jpg" alt="Our Garden"/>
+        <img src={garden} alt="Early spring garden courgette"/>
     </Layout>
 }
 
