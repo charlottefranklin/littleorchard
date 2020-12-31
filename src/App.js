@@ -1,15 +1,13 @@
 import React, {Component} from "react"
-import "./styles/lotte.scss"
-import Layout from "./components/layout"
+import PhotoLayout from "./components/photoLayout"
 import {Route, HashRouter} from "react-router-dom"
+import './App.scss'
 
 import SowingCalendarPage from "./pages/garden/sowing-calendar"
 import LinksPage from "./pages/garden/links";
 import BreadPage from "./pages/recipes/bread"
 import PizzaPage from "./pages/recipes/pizza"
 import SourdoughNoKneadPage from "./pages/recipes/sourdough-no-knead"
-
-import garden from "./images/IMG_0806-1.jpg"
 
 class App extends Component {
     render() {
@@ -27,10 +25,9 @@ class App extends Component {
 }
 
 function Main() {
-    return <Layout>
+    return <PhotoLayout>
         <section><h1>A New Zealand home gardener's notebook</h1></section>
-        <img src={garden} alt="Early spring garden courgette"/>
-    </Layout>
+    </PhotoLayout>
 }
 
 export default App

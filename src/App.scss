@@ -1,0 +1,32 @@
+@import '~lottecss/assets/styles/lotte.scss';
+
+.header-content, .footer-content, nav, section, h1, h2 {
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-right: 1rem;
+}
+
+.main-full-width {
+    padding: 0;
+    max-width: unset;
+    margin-bottom: 0;
+}

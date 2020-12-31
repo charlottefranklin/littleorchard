@@ -1,4 +1,5 @@
 import React from "react"
+import '../../styles/_box.scss'
 
 import Layout from "../../components/layout"
 import {SeedsDisplay} from "./seeds-display";
