@@ -2,6 +2,7 @@ import React, {Component} from "react"
 import PhotoLayout from "./components/photoLayout"
 import {Route, HashRouter} from "react-router-dom"
 import './App.scss'
+import garden from "./images/IMG_0804-1.jpg";
 
 import SowingCalendarPage from "./pages/garden/sowing-calendar"
 import LinksPage from "./pages/garden/links";
@@ -27,6 +28,7 @@ class App extends Component {
 function Main() {
     return <PhotoLayout>
         <section><h1>A New Zealand home gardener's notebook</h1></section>
+        <img src={garden} alt="Koanga poppies"/>
     </PhotoLayout>
 }
 

@@ -10,12 +10,12 @@ const LinksPage = () => {
             <h1>Directory</h1>
             <h2>Seeds and plants</h2>
             <section className={"flex-group link-group"}>
-                {shopsData.plantSeedSales.map((grower, i)=> <VegDisplay grower={grower} index={i}/>)}
+                {shopsData.plantSeedSales.map((grower, i)=> <VegDisplay grower={grower} index={i} key={i}/>)}
             </section>
 
             <h2>Equipment</h2>
             <section className={"flex-group link-group"}>
-                {shopsData.equipmentSales.map((seller, i)=> <EquipmentDisplay seller={seller} index={i}/>)}
+                {shopsData.equipmentSales.map((seller, i)=> <EquipmentDisplay seller={seller} index={i} key={i}/>)}
             </section>
         </Layout>
     );

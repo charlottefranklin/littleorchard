@@ -1,10 +1,10 @@
 import React from "react"
 
-import Layout from "../../components/layout"
+import PhotoLayout from "../../components/photoLayout"
 import bread from "../../images/bread.jpg"
 
 const BreadPage = () => (
-    <Layout>
+    <PhotoLayout>
         <h1>Bread</h1>
         <img src={bread} alt="Two loaves of bread"/>
         <section>
@@ -37,7 +37,7 @@ const BreadPage = () => (
             <p>Allow to cool for at least twenty minutes before slicing any bread as this allows the bread to finish its
                 baking process.</p>
         </section>
-    </Layout>
+    </PhotoLayout>
 )
 
 export default BreadPage

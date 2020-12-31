@@ -1,10 +1,10 @@
 import React from "react"
 
-import Layout from "../../components/layout"
+import PhotoLayout from "../../components/photoLayout"
 import pizza01 from "../../images/pizza.jpg"
 
 const PizzaPage = () => (
-    <Layout>
+    <PhotoLayout>
 
         <h1>Pizza</h1>
         <img src={pizza01} alt="pizza"/>
@@ -41,7 +41,7 @@ const PizzaPage = () => (
             <p>Using the back of a spoon spread tomato paste and add topping of your choice.</p>
             <p>Bake for 10 minutes or until golden brown.</p>
         </section>
-    </Layout>
+    </PhotoLayout>
 )
 
 export default PizzaPage

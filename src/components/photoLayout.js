@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import Header from "./header"
 import Garden from "./navigation/garden"
 import Recipes from "./navigation/recipes"
-import garden from "../images/IMG_0806-1.jpg";
 
 const photoLayout = ({ children }) => {
   return (
@@ -20,7 +19,6 @@ const photoLayout = ({ children }) => {
         </nav>
       <main className={"main-full-width"}>
           <>{children}</>
-          <img src={garden} alt="Early spring garden courgette"/>
       </main>
         <footer><article className="footer-content">
           © {new Date().getFullYear()} Little Orchard
