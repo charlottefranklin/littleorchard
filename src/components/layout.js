@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <>
       <Header/>
         <nav>
-            <ul className={"flex-group flex-start"}>
+            <ul>
             <Garden/>
             <Recipes/>
             </ul>

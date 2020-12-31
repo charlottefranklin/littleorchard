@@ -1,6 +1,6 @@
 @import '~lottecss/assets/styles/lotte.scss';
 
-.header-content, .footer-content, nav, section, h1, h2 {
+.header-content, .footer-content, section, h1, h2 {
   margin: 0 auto;
   max-width: 80rem;
 }
@@ -12,6 +12,7 @@ header {
 nav {
   text-align: center;
   padding: 1rem 0;
+  border-bottom: 1px solid black;
 }
 
 nav ul {
@@ -29,4 +30,8 @@ nav li {
     padding: 0;
     max-width: unset;
     margin-bottom: 0;
+}
+
+h1 {
+  padding-top: 1rem;
 }

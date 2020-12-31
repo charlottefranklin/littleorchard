@@ -13,7 +13,7 @@ const photoLayout = ({ children }) => {
         </style>
       <Header/>
         <nav>
-            <ul className={"flex-group flex-start"}>
+            <ul>
             <Garden/>
             <Recipes/>
             </ul>
