@@ -22,14 +22,13 @@ class App extends Component {
         return (
             <HashRouter>
                 <Route path="/" exact component={Main}/>
-                <Route path="/pages/blog/blog/" component={BlogPage}/>
-                <Route path="/pages/shop/shop/" component={ShopPage}/>
-                <Route path="/pages/garden/garden/" component={GardenPage}/>
-                <Route path="/pages/kitchen/kitchen/" component={KitchenPage}/>
+                <Route path="/blog/" component={BlogPage}/>
+                <Route path="/shop/" component={ShopPage}/>
+                <Route path="/garden/" component={GardenPage}/>
+                <Route path="/kitchen/" component={KitchenPage}/>
 
                 <Route path="/pages/blog/posts/2020-10-27/" component={Post01}/>
                 <Route path="/pages/blog/posts/2020-11-02/" component={Post02}/>
-
 
                 <Route path="/pages/garden/links/" component={LinksPage}/>
                 <Route path="/pages/garden/sowing-calendar/" component={SowingCalendarPage}/>
@@ -50,5 +49,3 @@ function Main() {
 }
 
 export default App
-
-
