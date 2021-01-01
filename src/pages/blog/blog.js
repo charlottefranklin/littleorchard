@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../../components/layout";
-import BlogNavigation from "./blogNavigation";
+import BlogNavigation from "../../components/navigation/blogNavigation";
 
 const BlogPage = () => {
     return(
@@ -12,5 +12,3 @@ const BlogPage = () => {
 };
 
 export default BlogPage
-
-
