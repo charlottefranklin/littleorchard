@@ -7,6 +7,7 @@ import garden from "./images/IMG_0804-1.jpg";
 import SowingCalendarPage from "./pages/garden/sowing-calendar"
 import GardenPage from "./pages/garden/garden";
 import KitchenPage from "./pages/kitchen/kitchen";
+import BlogPage from "./pages/blog/blog";
 import LinksPage from "./pages/garden/links";
 import BreadPage from "./pages/recipes/bread"
 import PizzaPage from "./pages/recipes/pizza"
@@ -19,6 +20,7 @@ class App extends Component {
                 <Route path="/" exact component={Main}/>
                 <Route path="/pages/garden/garden/" component={GardenPage}/>
                 <Route path="/pages/kitchen/kitchen/" component={KitchenPage}/>
+                <Route path="/pages/blog/blog/" component={BlogPage}/>
 
                 <Route path="/pages/garden/links/" component={LinksPage}/>
                 <Route path="/pages/garden/sowing-calendar/" component={SowingCalendarPage}/>

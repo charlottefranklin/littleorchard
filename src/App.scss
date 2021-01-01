@@ -24,6 +24,9 @@ nav li {
   list-style: none;
   display: inline;
   margin-right: 1rem;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .main-full-width {
@@ -39,4 +42,8 @@ h1 {
 
 img {
   margin-top: 0;
+}
+
+.title-case {
+  text-transform: capitalize;
 }
