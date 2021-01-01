@@ -1,12 +1,14 @@
 import React from "react"
 import Layout from "../../components/layout";
 
-const GardenPage = () => {
-    return (
+const ShopPage = () => {
+    return(
         <Layout>
-            <h1>Garden</h1>
+            <h1>Shop</h1>
         </Layout>
     );
 };
 
-export default GardenPage
+export default ShopPage
+
+
