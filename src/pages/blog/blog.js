@@ -5,9 +5,9 @@ import {posts} from "./posts/posts";
 
 const BlogPage = () => {
 
-    const greeting = 'welcome to react'
-    const user = { name: 'Robin' };
-    const Greeting = props => <h1>{props.greeting} {user.name}</h1>
+    // const greeting = 'welcome to react'
+    // const user = { name: 'Robin' };
+    // const Greeting = props => <h1>{props.greeting} {user.name}</h1>
 
     // const posts = [
     //     { name: 'postA', isSelected: true },
@@ -16,9 +16,8 @@ const BlogPage = () => {
 
     return (
         <Layout>
-            <h1>Blog</h1>
             <BlogNavigation/>
-            <Greeting greeting = {greeting}/>
+            {/*<Greeting greeting = {greeting}/>*/}
             <div>
                 { posts
                     .map(post => <article>
