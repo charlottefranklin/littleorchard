@@ -6,9 +6,6 @@ import Navigation from "./navigation/navigation";
 const photoLayout = ({children}) => {
     return (
         <>
-            <style>
-                @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
-            </style>
             <Header/>
             <Navigation/>
             <main className={"main-full-width"}>

@@ -1,7 +1,7 @@
 import React from "react"
 import {posts} from "../../pages/blog/posts/posts";
 
-export function PostLayout(props) {
+const PostLayout = () => {
     return (
         <article>
             <h2>{props.posts.title}</h2>
@@ -22,3 +22,5 @@ export function PostLayout(props) {
         </article>
     )
 }
+
+export default PostLayout;
