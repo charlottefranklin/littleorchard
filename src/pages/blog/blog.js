@@ -7,8 +7,7 @@ const BlogPage = () => {
     return (
         <Layout>
             <div>
-                {posts
-                    .map(post => <article key = {post.date}>
+                {posts .map(post => <article key = {post.date}>
                         <h2>{post.title}</h2>
                         <p>{post.date}</p>
                         <img src={post.imageMain} alt={post.imageMainAlt}></img>

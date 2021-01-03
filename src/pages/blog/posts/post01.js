@@ -1,4 +1,4 @@
-export const post01 = [
+export const post = [
     {
         "id": "2020-10-27",
         "date": "Oct-27-2020",
@@ -24,4 +24,3 @@ export const post01 = [
         ]
     }
 ]
-
