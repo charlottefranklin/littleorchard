@@ -1,13 +1,15 @@
 import React from "react"
-import PropTypes from "prop-types"
 import Header from "./header"
 import Navigation from "./navigation/navigation"
+import BlogNavigation from "./navigation/blogNavigation";
 
 const Layout = ({children}) => {
     return (
         <>
             <Header/>
             <Navigation/>
+            <BlogNavigation/>
+
             <main>{children}</main>
             <footer>
                 <article className="footer-content">
@@ -16,10 +18,6 @@ const Layout = ({children}) => {
             </footer>
         </>
     )
-}
-
-Layout.propTypes = {
-    children: PropTypes.node.isRequired,
 }
 
 export default Layout
