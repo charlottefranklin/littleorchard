@@ -5,7 +5,7 @@ import PostLayout from "../../../components/blog/postLayout";
 
 const Post02 = () => (
     <Layout>
-        { post.map((post, i)=> <PostLayout post={post}/> )}
+        { post.map((post, i)=> <PostLayout post={post} key={i}/> )}
     </Layout>
 )
 
