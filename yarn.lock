@@ -9077,7 +9077,14 @@ react-router-hash-link@^1.2.2:
   dependencies:
     prop-types "^15.6.0"
 
-react-router@5.2.0:
+react-router-outlet@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/react-router-outlet/-/react-router-outlet-0.1.1.tgz#5f812b6938923e8fbe1314af60e0a3a461f73ce6"
+  integrity sha512-yRXeIyCelk7jF5xPiZMCMl89C4gvW5Od6ibuNbO73f2qUuBzgrrhzz5pLlgbq544w3Bp1YlOOdW525q/AIL04g==
+  dependencies:
+    prop-types "^15.6.2"
+
+react-router@5.2.0, react-router@^5.0.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-5.2.0.tgz#424e75641ca8747fbf76e5ecca69781aa37ea293"
   integrity sha512-smz1DUuFHRKdcJC0jobGo8cVbhO3x50tCL4icacOlcwDOEQPq4TMqwx3sY1TP+DvtTgz4nm3thuo7A+BK2U0Dw==

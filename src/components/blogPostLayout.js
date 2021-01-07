@@ -1,6 +1,6 @@
 import React from "react"
 
-export function PostsLayout(props) {
+export function BlogPostLayout(props) {
     return (
         <article>
             <h2>{props.post.title}</h2>
@@ -12,4 +12,4 @@ export function PostsLayout(props) {
     )
 }
 
-export default PostsLayout
+export default BlogPostLayout

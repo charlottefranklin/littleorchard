@@ -1,12 +1,21 @@
 import React from "react"
 import './App.scss'
 
-import PhotoLayout from "./components/photoLayout"
-import garden from "./images/IMG_0804-1.jpg";
+import {BrowserRouter} from "react-router-dom";
+import Header from "./components/header";
+import Navigation from "./components/navigation/navigation";
+import {Router} from "./Router";
+import {Footer} from "./components/footer";
 
-export default function Main() {
-    return <PhotoLayout>
-        <section><h1>A New Zealand home gardener's notebook</h1></section>
-        <img src={garden} alt="Koanga poppies"/>
-    </PhotoLayout>
+function App() {
+    return (
+        <BrowserRouter>
+            <Header/>
+            <Navigation/>
+            <Router/>
+            <Footer/>
+        </BrowserRouter>
+    );
 }
+
+export default App;
