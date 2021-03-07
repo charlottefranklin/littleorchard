@@ -6,7 +6,7 @@ export const SiteIndex = () => {
     return (
         <PhotoLayout>
             <section>
-                <p className="align-center">Welcome, and please excuse the mess whilst I begin the migration back to analog.</p>
+                <p className="align-center">Hello, and please excuse the mess whilst the renovations are underway.</p>
             </section>
             <img src={garden} alt="Koanga poppies"/>
         </PhotoLayout>
