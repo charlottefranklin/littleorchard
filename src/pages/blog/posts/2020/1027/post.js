@@ -2,7 +2,7 @@ export const post = [
     {
         "id": "2020-10-27",
         "date": "Oct-27-2020",
-        "title": "Back at home",
+        "title": "Back in NZ",
         "link": "/2020-10-27",
         "snippet": "I am writing.",
         "text": "I am writing.",

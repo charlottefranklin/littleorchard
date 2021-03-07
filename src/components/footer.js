@@ -4,7 +4,7 @@ export const Footer = () => {
     return (
         <footer>
             <article className="footer-content">
-                © {new Date().getFullYear()} Little Orchard
+                © {new Date().getFullYear()} Pentacle ~ Ephemeris
             </article>
         </footer>
     )

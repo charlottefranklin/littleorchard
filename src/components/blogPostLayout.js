@@ -3,7 +3,7 @@ import React from "react"
 export function BlogPostLayout(props) {
     return (
         <article>
-            <h2>{props.post.title}</h2>
+            <h1>{props.post.title}</h1>
             <p>{props.post.date}</p>
             <p>{props.post.text}</p>
             <div>{props.post.images.map((image, i) => <img src={image.imageUrl} alt={image.imageAlt} key={i}/>)}

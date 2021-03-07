@@ -6,7 +6,7 @@ export default function BlogNavigation() {
         <nav>
             <ul>
                 <li><Link to="01">Back in NZ</Link></li>
-                <li><Link to="02">The cats go out</Link></li>
+                <li><Link to="02">The cats can go out</Link></li>
             </ul>
         </nav>
     )

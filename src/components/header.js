@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return <header>
       <div  className="header-content">
-        <Link to="/">Little Orchard</Link>
+        <Link to="/">Pentacle ~ Ephemeris</Link>
       </div>
     </header>
   }
