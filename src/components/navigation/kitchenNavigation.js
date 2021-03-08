@@ -1,12 +1,12 @@
 import React from "react";
 import {Link} from "react-router-dom";
 
-export default function BlogNavigation() {
+export default function KitchenNavigation() {
     return (
         <nav>
             <ul>
-                <li><Link to="01">Back in NZ</Link></li>
-                <li><Link to="02">The cats can go out</Link></li>
+                <li><Link to="pizza">Pizza</Link></li>
+                <li><Link to="cake">Cake</Link></li>
             </ul>
         </nav>
     )

@@ -15,6 +15,9 @@ import MathematicsPage from "./pages/Mathematics/Mathematics";
 import Security from "./pages/Security/Security";
 import Writing from "./pages/Writing/Writing";
 import InteractionDesign from "./pages/InteractionDesign/InteractionDesign";
+import KitchenIndex from "./pages/kitchen/kitchenindex";
+import PizzaPage from "./pages/kitchen/recipes/pizza/pizza";
+import CardamomCakePage from "./pages/kitchen/recipes/cake-cardamom/cake-cardamom";
 
 export const Router = () => {
     return (
@@ -27,7 +30,11 @@ export const Router = () => {
             </Route>
             <Route path="shop" element={<ShopPage/>}/>
             <Route path="garden" element={<GardenPage/>}/>
-            <Route path="kitchen" element={<KitchenPage/>}/>
+            <Route path="kitchen" element={<KitchenPage/>}>
+                <Route path="/" element={<KitchenIndex/>}/>
+                <Route path="recipes/pizza/pizza" element={<PizzaPage/>}/>
+                <Route path="recipes/cake-cardamon/cake-cardamon" element={<CardamomCakePage/>}/>
+            </Route>
             <Route path="algorithms" element={<Algorithms/>}/>
             <Route path="data-science" element={<DataScience/>}/>
             <Route path="mathematics" element={<MathematicsPage/>}/>

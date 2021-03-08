@@ -58,6 +58,7 @@ export const bookmarksData = {
         {"url": "https://web.mit.edu/kerberos/", "name": "Kerberos: The Network Authentication Protocol"},
         {"url": "https://en.wikipedia.org/wiki/Bell%E2%80%93LaPadula_model", "name": "Bell–LaPadula model - Wikipedia"},
         {"url": "https://en.wikipedia.org/wiki/Quantum_superposition", "name": "Quantum superposition - Wikipedia"},
+        {"url": "https://en.wikipedia.org/wiki/Fiat%E2%80%93Shamir_heuristic", "name": "Fiat Shamir heuristic - Wikipedia"},
     ],
     "papers": [
         {"url": "http://pages.cs.wisc.edu/~rist/642-spring-2014/shannon-secrecy.pdf", "name": "Communication Theory of Secrecy Systems - C.E. Shannon 1949"},
