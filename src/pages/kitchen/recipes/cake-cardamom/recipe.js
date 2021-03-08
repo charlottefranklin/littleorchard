@@ -6,7 +6,7 @@ export const recipe = [
         "title": "Cardamom and banana cake",
         "link": "/cake-cardamom",
         "snippet": "Cardamom cake recipe",
-        "imageMain": "/img/kitchen/cardamom-cake-01.jpg",
+        "imageMain": "/img/kitchen/cardamom-cake-03.jpg",
         "imageMainAlt": "Cardamom and banana cake",
         "ingredients": [
             {"text": "200g unsalted butter chopped into small cubes, room temp"},
@@ -35,7 +35,12 @@ export const recipe = [
             {"text": "Bake for 50 – 60 minutes or until golden brown."},
             {"text": "The cake is ready when you slide a knife into the centre and it comes out with only very small traces of cake mix. This cake is usually very moist."},
             {"text": "Leave to cool for 20 minutes. Then remove from tin and place on a rack to cool further. Once cooled remove the baking paper."},
-            {"text": "Serve warm or cold with a dollop of natural yoghurt."},        ]
+            {"text": "Serve warm or cold with a dollop of natural yoghurt."},
+        ],
+        "images": [
+            {"imageUrl": "/img/kitchen/cardamom-cake-02.jpg", "imageAlt": "cake 03"},
+            {"imageUrl": "/img/kitchen/cardamom-cake-01.jpg", "imageAlt": "cake 01"},
+        ],
     }
 ]
 

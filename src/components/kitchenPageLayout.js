@@ -14,6 +14,7 @@ export function KitchenPageLayout(props) {
             <article>
                 <h2>Method</h2>
                 <ul>{props.recipe.steps.map((steps, i) => <li key={i}>{steps.text}</li>)}</ul>
+                <div>{props.recipe.images.map((image, i) => <img src={image.imageUrl} alt={image.imageAlt} key={i}/>)}</div>
             </article>
 
         </section>
