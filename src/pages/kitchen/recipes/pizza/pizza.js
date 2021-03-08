@@ -2,12 +2,12 @@ import React from "react"
 import {recipe} from "./recipe";
 
 import PhotoLayout from "../../../../components/photoLayout"
-import KitchenPageLayout from "../../../../components/kitchenPageLayout";
+import KitchenPageLayoutTwoSteps from "../../../../components/kitchenPageLayoutTwoSteps";
 
 const PizzaPage = () => (
     <PhotoLayout>
         <article>
-            {recipe.map((recipe, i) => <KitchenPageLayout recipe={recipe} key={i}/>)}
+            {recipe.map((recipe, i) => <KitchenPageLayoutTwoSteps recipe={recipe} key={i}/>)}
         </article>
     </PhotoLayout>
 )

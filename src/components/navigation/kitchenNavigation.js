@@ -5,8 +5,8 @@ export default function KitchenNavigation() {
     return (
         <nav>
             <ul>
-                <li><Link to="pizza">Pizza</Link></li>
-                <li><Link to="cake">Cake</Link></li>
+                <li><Link to="pizza">Spelt pizza dough</Link></li>
+                <li><Link to="cake-cardamom">Cardamom and banana cake</Link></li>
             </ul>
         </nav>
     )

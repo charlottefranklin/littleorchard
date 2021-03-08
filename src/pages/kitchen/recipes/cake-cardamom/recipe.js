@@ -3,11 +3,11 @@ import React from "react";
 export const recipe = [
     {
         "id": "cake-cardamom",
-        "title": "Cardamom cake",
+        "title": "Cardamom and banana cake",
         "link": "/cake-cardamom",
         "snippet": "Cardamom cake recipe",
-        "imageMain": "/img/cake.jpg",
-        "imageMainAlt": "Cardamom cake",
+        "imageMain": "/img/kitchen/cardamom-cake-01.jpg",
+        "imageMainAlt": "Cardamom and banana cake",
         "ingredients": [
             {"text": "200g unsalted butter chopped into small cubes, room temp"},
             {"text": "1 cup sugar"},
@@ -21,7 +21,7 @@ export const recipe = [
             {"text": "1/2- 3/4 cup milk (enough to make the mix moist)"},
             {"text": "3 bananas, sliced into rounds"},
         ],
-        "method": [
+        "steps": [
             {"text": "Heat oven to 180°C"},
             {"text": "In a big bowl, beat the butter, sugar and vanilla extract until the butter is pale and fluffy. This takes me about 10-15 minutes using an electric hand mixer."},
             {"text": "Chop or grind the cardamom seeds until they’re as fine as you can get them."},

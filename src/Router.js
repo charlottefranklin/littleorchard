@@ -33,7 +33,7 @@ export const Router = () => {
             <Route path="kitchen" element={<KitchenPage/>}>
                 <Route path="/" element={<KitchenIndex/>}/>
                 <Route path="pizza" element={<PizzaPage/>}/>
-                <Route path="cake-cardamon" element={<CardamomCakePage/>}/>
+                <Route path="cake-cardamom" element={<CardamomCakePage/>}/>
             </Route>
             <Route path="algorithms" element={<Algorithms/>}/>
             <Route path="data-science" element={<DataScience/>}/>

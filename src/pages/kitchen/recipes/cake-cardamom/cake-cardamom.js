@@ -1,15 +1,15 @@
 import React from "react"
-import KitchenLayout from "../../../../components/kitchenLayout";
-import {recipe} from "../pizza/recipe";
+import {recipe} from "./recipe";
+
 import KitchenPageLayout from "../../../../components/kitchenPageLayout";
+import PhotoLayout from "../../../../components/photoLayout";
 
 const CardamomCakePage = () => (
-    <KitchenLayout>
-        cardamom
+    <PhotoLayout>
         <article>
-            {recipe.map((post, i) => <KitchenPageLayout post={post} key={i}/>)}
+            {recipe.map((recipe, i) => <KitchenPageLayout recipe={recipe} key={i}/>)}
         </article>
-    </KitchenLayout>
+    </PhotoLayout>
 )
 
 export default CardamomCakePage

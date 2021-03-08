@@ -5,7 +5,7 @@ class RecipesNavigation extends Component {
     render() {
         return <>
                     <li><Link to="/pages/recipes/bread/">Bread</Link></li>
-                    <li><Link to="/pages/recipes/pizza/">Pizza</Link></li>
+                    <li><Link to="/pages/recipes/pizza/">Spelt pizza dough</Link></li>
                     <li><Link to="/pages/recipes/sourdough-no-knead/">No-knead sourdough</Link></li>
                     {/*<li><Link to="/pages/cake-cardamom/">Cardamon cake</Link></li>*/}
                     {/*<li><Link to="/pages/cake-raspberry/">Raspberry cake</Link></li>*/}

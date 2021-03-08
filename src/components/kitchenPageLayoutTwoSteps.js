@@ -12,10 +12,19 @@ export function KitchenPageLayout(props) {
             </article>
 
             <article>
-                <h2>Method</h2>
+                <h2>Ingredients step two</h2>
+                <ul>{props.recipe.ingredients02.map((ingredient, i) => <li key={i}>{ingredient.text}</li>)}</ul>
+            </article>
+
+            <article>
+                <h2>Step one</h2>
                 <ul>{props.recipe.steps.map((steps, i) => <li key={i}>{steps.text}</li>)}</ul>
             </article>
 
+            <article>
+                <h2>Step two</h2>
+                <ul>{props.recipe.steps02.map((steps, i) => <li key={i}>{steps.text}</li>)}</ul>
+            </article>
         </section>
     )
 }
