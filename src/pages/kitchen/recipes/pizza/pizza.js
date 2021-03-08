@@ -6,9 +6,8 @@ import KitchenPageLayout from "../../../../components/kitchenPageLayout";
 
 const PizzaPage = () => (
     <PhotoLayout>
-        pizza
         <article>
-            {recipe.map((post, i) => <KitchenPageLayout post={post} key={i}/>)}
+            {recipe.map((recipe, i) => <KitchenPageLayout recipe={recipe} key={i}/>)}
         </article>
     </PhotoLayout>
 )

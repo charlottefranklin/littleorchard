@@ -32,8 +32,8 @@ export const Router = () => {
             <Route path="garden" element={<GardenPage/>}/>
             <Route path="kitchen" element={<KitchenPage/>}>
                 <Route path="/" element={<KitchenIndex/>}/>
-                <Route path="recipes/pizza/pizza" element={<PizzaPage/>}/>
-                <Route path="recipes/cake-cardamon/cake-cardamon" element={<CardamomCakePage/>}/>
+                <Route path="pizza" element={<PizzaPage/>}/>
+                <Route path="cake-cardamon" element={<CardamomCakePage/>}/>
             </Route>
             <Route path="algorithms" element={<Algorithms/>}/>
             <Route path="data-science" element={<DataScience/>}/>
